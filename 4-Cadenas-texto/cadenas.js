@@ -1,0 +1,11 @@
+let nombre = "Max";
+let apellido = "Botero";
+let estudiante = nombre + " " + apellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let letrasEstudiante = estudiante.length;
+let primeraLetra = nombre.charAt(0);
+let ultimaLetra = apellido.charAt(apellido.length - 1);
+let sinEspacios = estudiante.trim();
+let estaContenido = estudiante.includes(nombre);
+console.log(estaContenido);
